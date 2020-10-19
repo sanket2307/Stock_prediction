@@ -1,0 +1,238 @@
+2020-10-19 18:50:35.632518: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudart64_101.dll
+2020-10-19 18:50:37.015854: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library nvcuda.dll
+2020-10-19 18:50:37.994664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.515GHz coreCount: 14 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 178.84GiB/s
+2020-10-19 18:50:37.995085: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudart64_101.dll
+2020-10-19 18:50:38.001288: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cublas64_10.dll
+2020-10-19 18:50:38.005874: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cufft64_10.dll
+2020-10-19 18:50:38.007442: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library curand64_10.dll
+2020-10-19 18:50:38.012813: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cusolver64_10.dll
+2020-10-19 18:50:38.015454: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cusparse64_10.dll
+2020-10-19 18:50:38.031580: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudnn64_7.dll
+2020-10-19 18:50:38.031861: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-10-19 18:50:38.032421: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-10-19 18:50:38.041530: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x19c0c6fc4d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-10-19 18:50:38.041946: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-10-19 18:50:38.042402: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.515GHz coreCount: 14 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 178.84GiB/s
+2020-10-19 18:50:38.042993: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudart64_101.dll
+2020-10-19 18:50:38.043259: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cublas64_10.dll
+2020-10-19 18:50:38.043510: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cufft64_10.dll
+2020-10-19 18:50:38.043820: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library curand64_10.dll
+2020-10-19 18:50:38.044049: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cusolver64_10.dll
+2020-10-19 18:50:38.044311: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cusparse64_10.dll
+2020-10-19 18:50:38.044599: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudnn64_7.dll
+2020-10-19 18:50:38.044842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-10-19 18:50:38.585152: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-10-19 18:50:38.585373: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0
+2020-10-19 18:50:38.585505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N
+2020-10-19 18:50:38.585775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2909 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-10-19 18:50:38.588736: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x19c3cd270d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-10-19 18:50:38.589001: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1650, Compute Capability 7.5
+Epoch 1/100
+2020-10-19 18:50:44.754989: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cublas64_10.dll
+2020-10-19 18:50:45.007937: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudnn64_7.dll
+38/38 [==============================] - 1s 19ms/step - loss: 0.0332
+Epoch 2/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0074
+Epoch 3/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0054
+Epoch 4/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0056
+Epoch 5/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0050
+Epoch 6/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0046
+Epoch 7/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0048
+Epoch 8/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0046
+Epoch 9/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0045
+Epoch 10/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0040
+Epoch 11/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0040
+Epoch 12/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0040
+Epoch 13/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0040
+Epoch 14/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0039
+Epoch 15/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0036
+Epoch 16/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0045
+Epoch 17/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0038
+Epoch 18/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0039
+Epoch 19/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0035
+Epoch 20/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0033
+Epoch 21/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0036
+Epoch 22/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0036
+Epoch 23/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0037
+Epoch 24/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0034
+Epoch 25/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0035
+Epoch 26/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0031
+Epoch 27/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0031
+Epoch 28/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0030
+Epoch 29/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0029
+Epoch 30/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0027
+Epoch 31/100
+38/38 [==============================] - 1s 26ms/step - loss: 0.0030
+Epoch 32/100
+38/38 [==============================] - 1s 25ms/step - loss: 0.0028
+Epoch 33/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0030
+Epoch 34/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0026
+Epoch 35/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0026
+Epoch 36/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0029
+Epoch 37/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0029
+Epoch 38/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0033
+Epoch 39/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0025
+Epoch 40/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0030
+Epoch 41/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0029
+Epoch 42/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0027
+Epoch 43/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0026
+Epoch 44/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0028
+Epoch 45/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0024
+Epoch 46/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0024
+Epoch 47/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 48/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 49/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0024
+Epoch 50/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 51/100
+38/38 [==============================] - 1s 18ms/step - loss: 0.0023
+Epoch 52/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0023
+Epoch 53/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0021
+Epoch 54/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 55/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 56/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 57/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 58/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0023
+Epoch 59/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0022
+Epoch 60/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0019
+Epoch 61/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0021
+Epoch 62/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0021
+Epoch 63/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0022
+Epoch 64/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0021
+Epoch 65/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0022
+Epoch 66/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0024
+Epoch 67/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0020
+Epoch 68/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0020
+Epoch 69/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0020
+Epoch 70/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0017
+Epoch 71/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0018
+Epoch 72/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0017
+Epoch 73/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0019
+Epoch 74/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0018
+Epoch 75/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0018
+Epoch 76/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0019
+Epoch 77/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0018
+Epoch 78/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0017
+Epoch 79/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0017
+Epoch 80/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0018
+Epoch 81/100
+38/38 [==============================] - 1s 22ms/step - loss: 0.0020
+Epoch 82/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0016
+Epoch 83/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0015
+Epoch 84/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0015
+Epoch 85/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0018
+Epoch 86/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0015
+Epoch 87/100
+38/38 [==============================] - 1s 21ms/step - loss: 0.0015
+Epoch 88/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0016
+Epoch 89/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0016
+Epoch 90/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0017
+Epoch 91/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0016
+Epoch 92/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0016
+Epoch 93/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0017
+Epoch 94/100
+38/38 [==============================] - 1s 20ms/step - loss: 0.0015
+Epoch 95/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0016
+Epoch 96/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0015
+Epoch 97/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0014
+Epoch 98/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0014
+Epoch 99/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0014
+Epoch 100/100
+38/38 [==============================] - 1s 19ms/step - loss: 0.0013
+
+Process finished with exit code 0
